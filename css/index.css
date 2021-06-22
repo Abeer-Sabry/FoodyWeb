@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+   width: 100%;
+}
+/* .row{
+    display: flex;
+    justify-content: space-between;
+} */
+a,li{
+    text-decoration: none;
+    
+}
+.img-style{
+    height: 250px;
+}
+.header-info{
+    min-height: 120px;
+}
+#head{
+   background-image: url(../img/background.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position:center;
+   position: relative;
+  
+}
+#head .overlay{
+    background-color:rgba(0, 0, 0, 0.6);
+}
+.navbar{
+    width: 100%; 
+    position: fixed;
+    top: 0;
+    right: 0;  
+    transition: all ease 0.5s; 
+}
+.navbar.bgColor{
+    background-color: #ffc107 ;
+}
+header .head-content{
+    padding:280px 0;
+}
+header .head-content h1{
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+}
+header .navbar .row ul{
+    float: right;
+   
+}
+header .navbar .row ul li{
+    display: inline-block; 
+    list-style: none;   
+}
+header .navbar .row ul li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+header .navbar .row .logo {
+    height: 24px;
+}
+header .navbar .row .logo a{
+    font-size:25px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+   
+}
+.aj .aj-heading{
+    width:20%;
+    font-weight: bold;
+}
